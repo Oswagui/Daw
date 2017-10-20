@@ -1,0 +1,89 @@
+section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+}
+* {
+	font-family: "Verdana";
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+li.elemento-menu {
+	display: inline;
+	list-style-type: none;
+}
+
+header#cabecera img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 10%;
+}
+
+
+#menu {
+	text-align: center;
+}
+
+footer * {
+	font-style: italic;
+}
+
+footer #footer {
+	text-align: center;
+}
+
+h3 + h4  {
+	font-style: italic;
+	color: green;
+}
+
+h5 ~ p {
+	font-size: 8pt;
+}
+
+li[name="fork"] {
+	list-style-image: url(“https://goo.gl/y0yaro”);
+}
+
+aside h5[title$="small"] {
+	text-decoration: underline;
+}
+
+p.descripcion:first-letter {
+	font-size: 22pt;
+	font-weight: bold;
+
+}
+
+nav *:hover {
+	color: green;
+}
+
+li *:hover {
+	color: green;
+}
+
+ul *:hover {
+	color: green;
+}
+
+article header section img{
+
+	width: 15%; 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}

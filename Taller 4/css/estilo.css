@@ -1,0 +1,22 @@
+header > h1{
+	text-align: center;
+}
+
+/*header{
+	background-color: cyan
+}*/
+
+div{
+	margin: 5px;
+}
+
+div.bloques{
+	border: 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	padding: 10px;
+}
+
+span#foto > img{
+	width: 25%
+}

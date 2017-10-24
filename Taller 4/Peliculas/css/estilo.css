@@ -1,0 +1,56 @@
+header > h1{
+	font-family: "Anton";
+	color: #414239;
+	font-size: 4em;	
+}
+
+div.contenido{
+	display: inline-flex;
+	padding-left: 15px;
+}
+
+span.foto > img{
+	width: 250px;
+}
+
+span.sipnosis{
+	width: 450px;
+	padding-left: 30px;
+	padding-top: 0px;
+	text-align: justify;
+}
+
+span.reparto{
+	width: 200px;
+	padding-left: 30px;
+	padding-top: 0px;
+	text-align: justify;
+}
+
+span.video{
+	padding-left: 30px;
+	padding-top: 0px;
+	text-align: justify;
+}
+
+div.bloques{
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: #d7d8cb; 
+	font-family: "Verdana";
+}
+
+li[famoso ="principal"]{
+	font-weight: bold;
+}
+
+li[famoso ="secundario"]{
+	font-style: italic;
+}
+span.reparto ul{
+	list-style-image: url(https://goo.gl/6hPSSH);
+}
+
+span.img>img:hover{
+	opacity: 0.80;
+}
